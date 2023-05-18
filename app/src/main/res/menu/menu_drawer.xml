@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view"
+    >
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="HOME">
+
+        </item>
+
+        <item
+            android:id="@+id/salidas"
+            android:icon="@drawable/baseline_flight_takeoff_24"
+            android:title="SALIDAS">
+
+        </item>
+
+        <item
+            android:id="@+id/llegadas"
+            android:icon="@drawable/baseline_flight_land_24"
+            android:title="LLEGADAS">
+
+        </item>
+
+
+    </group>
+
+    <item android:title = "Otros" >
+
+        <menu>
+
+            <item
+                android:id="@+id/perfil"
+                android:icon="@drawable/baseline_person_24"
+                android:title="PERFIL">
+
+            </item>
+
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="CONFIGURACION">
+
+            </item>
+
+
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>
