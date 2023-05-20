@@ -1,4 +1,4 @@
-package cl.bootcamp.navdrawer
+package cl.bootcamp.navdrawer.interfaces
 
 import androidx.appcompat.widget.Toolbar
 

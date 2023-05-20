@@ -5,4 +5,5 @@
     <string name="hello_home_fragment">Hello home fragment</string>
     <string name="hello_llegadas_fragment">Hello llegadas fragment</string>
     <string name="hello_salidas_fragment">Hello salidas fragment</string>
+    <string name="ciudad">Ciudad de destino</string>
 </resources>

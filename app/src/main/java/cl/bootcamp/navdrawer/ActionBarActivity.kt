@@ -1,6 +1,8 @@
 package cl.bootcamp.navdrawer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import cl.bootcamp.navdrawer.interfaces.IActionBarApp
+
 open class ActionBarActivity : AppCompatActivity(), IActionBarApp {
 
     lateinit var _toolbar: Toolbar
